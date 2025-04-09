@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>TO-DO LISTADO</h1>
+    <div>
+        <input type="text" id="tarea" placeholder="Nueva tarea">
+    </div>
+
+    <div>
+        <button onclick="agregarTarea()">Agregar Tarea</button>
+    </div>
+    
+    <div>
+        <ul id="lista"></ul>
+    </div>
+
+    <div>
+        <button onclick="mostrarMasRapida()">Mostrar tarea más rápida</button>
+        <p id="masRapida"></p>
+    </div>
+
+    <div>
+        <button onclick="BorrarTodo()">Eliminar Lista</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
